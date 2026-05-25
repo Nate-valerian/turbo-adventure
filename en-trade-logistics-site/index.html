@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EN Trade & Logistics LLC | Dispatch & Logistics Support</title>
+    <meta
+      name="description"
+      content="EN Trade & Logistics LLC provides reliable dispatch, logistics coordination, carrier support, shipment tracking, and documentation services."
+    />
+    <meta property="og:title" content="EN Trade & Logistics LLC" />
+    <meta
+      property="og:description"
+      content="Reliable dispatch and logistics support for carriers and shippers."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="#home" aria-label="EN Trade & Logistics home">
+          <span class="brand-mark">EN</span>
+          <span>
+            <strong>EN Trade & Logistics</strong>
+            <small>LLC</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Open navigation" onclick="toggleMenu()">
+          ☰
+        </button>
+
+        <div class="nav-links" id="navLinks">
+          <a href="#services">Services</a>
+          <a href="#dispatch">Dispatch</a>
+          <a href="#about">About</a>
+          <a href="#contact" class="nav-cta">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Dispatch • Logistics • Carrier Support</p>
+          <h1>Reliable logistics support that keeps freight moving.</h1>
+          <p class="hero-text">
+            EN Trade & Logistics LLC helps carriers and shippers stay organized with dispatch
+            coordination, load communication, shipment tracking, and document handling.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#contact">Request a call</a>
+            <a class="btn secondary" href="#services">View services</a>
+          </div>
+
+          <div class="trust-row">
+            <span>Fast communication</span>
+            <span>Organized workflow</span>
+            <span>Professional support</span>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Logistics status card">
+          <div class="status-header">
+            <span class="status-dot"></span>
+            <span>Live Operations</span>
+          </div>
+          <div class="load-card">
+            <small>Shipment status</small>
+            <strong>Pickup confirmed</strong>
+            <p>Driver checked in. Documents ready for delivery confirmation.</p>
+          </div>
+          <div class="load-grid">
+            <div>
+              <small>Response</small>
+              <strong>Fast</strong>
+            </div>
+            <div>
+              <small>Support</small>
+              <strong>24/7 Ready</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="section-heading">
+          <p class="eyebrow">What we do</p>
+          <h2>Practical support for daily transportation operations.</h2>
+          <p>
+            Keep your business focused on moving loads while we help with the details that slow
+            teams down.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Dispatch Support</h3>
+            <p>
+              Load coordination, driver communication, pickup and delivery updates, and daily
+              operational support.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Carrier Communication</h3>
+            <p>
+              Clear communication with drivers, brokers, customers, and partners to keep every
+              shipment moving smoothly.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Document Handling</h3>
+            <p>
+              Support with BOLs, PODs, rate confirmations, invoice documents, and delivery records.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Shipment Tracking</h3>
+            <p>
+              Pickup confirmations, delivery updates, issue reporting, and organized load status
+              communication.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="split-section" id="dispatch">
+        <div>
+          <p class="eyebrow">Built for carriers</p>
+          <h2>Simple, organized dispatch workflow.</h2>
+          <p>
+            We support small fleets and owner-operators with practical dispatch assistance,
+            communication, and back-office coordination.
+          </p>
+
+          <ul class="check-list">
+            <li>Load planning and communication</li>
+            <li>Pickup and delivery coordination</li>
+            <li>Rate confirmation and document organization</li>
+            <li>Driver updates and issue escalation</li>
+            <li>Customer and broker communication support</li>
+          </ul>
+        </div>
+
+        <div class="quote-box">
+          <p>
+            “Good logistics is not only about moving freight. It is about clear communication,
+            clean documents, and knowing what is happening before problems become expensive.”
+          </p>
+        </div>
+      </section>
+
+      <section class="section muted" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About us</p>
+          <h2>Professional support for reliable transportation.</h2>
+          <p>
+            EN Trade & Logistics LLC is focused on helping transportation businesses operate with
+            better communication, cleaner documentation, and stronger daily coordination.
+          </p>
+        </div>
+
+        <div class="stats">
+          <div>
+            <strong>Dispatch</strong>
+            <span>Daily operational coordination</span>
+          </div>
+          <div>
+            <strong>Logistics</strong>
+            <span>Shipment and document support</span>
+          </div>
+          <div>
+            <strong>Service</strong>
+            <span>Clear communication with people</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Ready to move more organized?</h2>
+          <p>
+            Send us a message and tell us what kind of logistics or dispatch support you need.
+          </p>
+
+          <div class="contact-details">
+            <a href="tel:+10000000000">Phone: +1 (000) 000-0000</a>
+            <a href="mailto:info@yourdomain.com">Email: info@yourdomain.com</a>
+            <span>Location: United States</span>
+          </div>
+        </div>
+
+        <form class="contact-form" name="contact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
+
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+
+          <label>
+            Message
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Tell us what you need help with..."
+              required
+            ></textarea>
+          </label>
+
+          <button class="btn primary" type="submit">Send message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> EN Trade & Logistics LLC. All rights reserved.</p>
+      <a href="#home">Back to top</a>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        document.getElementById("navLinks").classList.toggle("open");
+      }
+
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
