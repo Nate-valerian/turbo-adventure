@@ -61,13 +61,9 @@ a {
 .brand-mark {
   width: 44px;
   height: 44px;
+  display: block;
   border-radius: 14px;
-  display: grid;
-  place-items: center;
-  font-weight: 900;
-  background: linear-gradient(135deg, var(--gold), #ffe2a0);
-  color: #101010;
-  box-shadow: 0 12px 35px rgba(244, 181, 64, 0.25);
+  box-shadow: 0 12px 35px rgba(244, 181, 64, 0.2);
 }
 
 .brand strong {
