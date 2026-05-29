@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title desc">
+  <title id="title">Datvida LLC dispatch services flyer</title>
+  <desc id="desc">A navy, gold, and white dispatch services flyer for Datvida LLC with service details, contact information, and carrier requirements.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1080" y1="0" y2="1350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07101d"/>
+      <stop offset=".52" stop-color="#0d2849"/>
+      <stop offset="1" stop-color="#123f78"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#ffe08b"/>
+      <stop offset=".5" stop-color="#f4b540"/>
+      <stop offset="1" stop-color="#c78312"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#25c7f3"/>
+      <stop offset="1" stop-color="#1f6feb"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity=".28"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity=".18"/>
+    </filter>
+    <style>
+      .font { font-family: Inter, Arial, Helvetica, sans-serif; }
+      .condensed { font-family: Impact, Haettenschweiler, "Arial Black", sans-serif; letter-spacing: 1px; }
+      .label { fill: #ffffff; font-size: 42px; }
+      .small { fill: rgba(255,255,255,.82); font-size: 28px; font-weight: 800; }
+      .body { fill: #ffffff; font-size: 28px; font-weight: 800; }
+      .muted { fill: rgba(255,255,255,.82); }
+      .navy { fill: #08111f; }
+      .goldFill { fill: url(#gold); }
+    </style>
+  </defs>
+
+  <rect width="1080" height="1350" fill="url(#bg)"/>
+  <path d="M0 0H1080V92C820 35 598 116 360 100C188 88 80 48 0 30Z" fill="#25c7f3"/>
+  <path d="M0 52C165 112 292 112 455 93C665 68 782 4 1080 24V488C832 450 628 520 410 505C246 494 106 452 0 424Z" fill="#ffffff"/>
+  <path d="M0 66C188 127 329 124 501 97C681 69 800 17 1080 42" fill="none" stroke="#05070a" stroke-width="38"/>
+  <path d="M0 423C170 469 310 507 489 489C673 469 826 433 1080 471" fill="none" stroke="#05070a" stroke-width="34"/>
+
+  <g transform="translate(70 166)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="424" height="222" rx="22" fill="#ffffff"/>
+    <g transform="translate(28 27)">
+      <rect width="104" height="104" rx="26" fill="#101b2d"/>
+      <path fill="url(#gold)" d="M25 23h28c18 0 31 13 31 29s-13 29-31 29H25V23Zm18 16v26h9c8 0 14-5 14-13s-6-13-14-13h-9Z"/>
+      <path fill="none" stroke="#fff0c7" stroke-linecap="round" stroke-width="7" d="M30 70c13-18 25-26 45-31"/>
+      <circle cx="30" cy="70" r="7" fill="#fff0c7"/>
+      <circle cx="75" cy="39" r="7" fill="#fff0c7"/>
+    </g>
+    <text class="font navy" x="152" y="72" font-size="50" font-weight="950" letter-spacing="1">DATVIDA</text>
+    <text class="font navy" x="154" y="114" font-size="33" font-weight="900" letter-spacing="6">LLC</text>
+    <rect x="152" y="134" width="226" height="4" fill="#f4b540"/>
+    <text class="font" x="152" y="174" fill="#31425a" font-size="23" font-weight="900" letter-spacing="1.3">DISPATCH SERVICES</text>
+  </g>
+
+  <g transform="translate(524 66)" filter="url(#shadow)">
+    <path d="M238 0c101 0 180 82 180 183v172H85c-39 0-70-31-70-70V123C15 55 70 0 138 0h100Z" fill="#111827"/>
+    <path d="M127 42h214c23 0 42 19 42 42v60H89V80c0-21 17-38 38-38Z" fill="#1c293b"/>
+    <path d="M109 179h292l48 76v96H17v-86l92-86Z" fill="#0b1220"/>
+    <rect x="132" y="77" width="96" height="74" rx="8" fill="#a7e4f2" opacity=".72"/>
+    <rect x="244" y="77" width="101" height="74" rx="8" fill="#a7e4f2" opacity=".72"/>
+    <rect x="97" y="209" width="249" height="82" rx="15" fill="#d6dbe3"/>
+    <g fill="#0b1220">
+      <rect x="118" y="224" width="209" height="8" rx="4"/>
+      <rect x="118" y="246" width="209" height="8" rx="4"/>
+      <rect x="118" y="268" width="209" height="8" rx="4"/>
+    </g>
+    <circle cx="122" cy="350" r="52" fill="#070b12"/>
+    <circle cx="122" cy="350" r="28" fill="#d8dee9"/>
+    <circle cx="353" cy="350" r="52" fill="#070b12"/>
+    <circle cx="353" cy="350" r="28" fill="#d8dee9"/>
+    <rect x="370" y="211" width="46" height="58" rx="12" fill="#f6d18b"/>
+    <rect x="55" y="215" width="42" height="54" rx="12" fill="#f6d18b"/>
+    <g fill="#f4b540">
+      <circle cx="157" cy="24" r="6"/>
+      <circle cx="205" cy="24" r="6"/>
+      <circle cx="253" cy="24" r="6"/>
+      <circle cx="301" cy="24" r="6"/>
+    </g>
+  </g>
+
+  <g transform="translate(690 407)" filter="url(#shadow)">
+    <path d="M95 0h164l56 50v125l-138 69L39 175V50Z" fill="#e8ebef" stroke="#101b2d" stroke-width="7"/>
+    <path d="M111 22h132l41 36v100l-107 53L70 158V58Z" fill="#ffffff" stroke="#a4acb8" stroke-width="4"/>
+    <text class="font navy" x="177" y="92" text-anchor="middle" font-size="47" font-weight="950">DISPATCH</text>
+    <text class="font navy" x="177" y="132" text-anchor="middle" font-size="31" font-weight="950">SUPPORT</text>
+    <text class="font" x="177" y="166" text-anchor="middle" fill="#31425a" font-size="22" font-weight="900">LOADS | DOCS | TRACKING</text>
+  </g>
+
+  <g transform="translate(54 570)">
+    <g filter="url(#softShadow)">
+      <rect width="420" height="68" fill="#05070a"/>
+      <rect width="12" height="68" fill="url(#gold)"/>
+      <text class="condensed label" x="34" y="49">WHO WE SERVICE</text>
+    </g>
+    <g class="font body">
+      <text x="0" y="112">• FLEET OWNERS</text>
+      <text x="0" y="150">• CARRIERS</text>
+      <text x="0" y="188">• OWNER-OPERATORS</text>
+    </g>
+  </g>
+
+  <g transform="translate(54 776)">
+    <g filter="url(#softShadow)">
+      <rect width="420" height="68" fill="#05070a"/>
+      <rect width="12" height="68" fill="url(#gold)"/>
+      <text class="condensed label" x="34" y="49">SERVICES OFFERED</text>
+    </g>
+    <g class="font" fill="#ffffff" font-size="25" font-weight="850">
+      <text x="0" y="100">• GREAT RATES</text>
+      <text x="0" y="134">• FOCUS ON DRIVING</text>
+      <text x="0" y="168">• LOAD SEARCH SUPPORT</text>
+      <text x="0" y="202">• DISPATCH COORDINATION</text>
+      <text x="0" y="236">• PAPERWORK HANDLING</text>
+      <text x="0" y="270">• BROKER COMMUNICATION</text>
+      <text x="0" y="304">• SHIPMENT TRACKING</text>
+    </g>
+  </g>
+
+  <g transform="translate(548 676)">
+    <text class="condensed" x="0" y="0" fill="#ffffff" font-size="74" stroke="#05070a" stroke-width="8" paint-order="stroke">ATTENTION</text>
+    <text class="font" x="4" y="42" fill="#ffffff" font-size="24" font-weight="950" letter-spacing="1.2">OWNER OPERATORS / FLEET OWNERS</text>
+    <text class="font" x="5" y="130" fill="#ffffff" font-size="42" font-weight="500">CONTACT US TODAY</text>
+    <text class="font" x="5" y="194" fill="#ffffff" font-size="54" font-weight="950" stroke="#05070a" stroke-width="6" paint-order="stroke">(972) 559-8555</text>
+    <text class="font" x="6" y="244" fill="#ffffff" font-size="33" font-weight="800">info@loadvoy.com</text>
+  </g>
+
+  <g transform="translate(548 974)">
+    <text class="condensed" x="250" y="0" fill="#ffffff" text-anchor="middle" font-size="57" stroke="#05070a" stroke-width="7" paint-order="stroke">CARRIER</text>
+    <text class="condensed" x="250" y="48" fill="#ffffff" text-anchor="middle" font-size="34" letter-spacing="4">REQUIREMENTS</text>
+    <g class="font" fill="rgba(255,255,255,.86)" font-size="25" font-weight="850">
+      <text x="0" y="102">• ACTIVE AUTHORITY</text>
+      <text x="0" y="138">• CARRIER PACKET</text>
+      <text x="0" y="174">• COPY OF CDL</text>
+      <text x="0" y="210">• W-9</text>
+      <text x="0" y="246">• DISPATCHER AGREEMENT</text>
+      <text x="0" y="282">• PROOF OF INSURANCE</text>
+      <text x="0" y="318">• POWER OF ATTORNEY</text>
+    </g>
+  </g>
+
+  <g transform="translate(54 1100)">
+    <g filter="url(#softShadow)">
+      <rect width="470" height="68" fill="#05070a"/>
+      <rect width="12" height="68" fill="url(#gold)"/>
+      <text class="condensed label" x="34" y="49">WE SPECIALIZE IN</text>
+    </g>
+    <text class="font" x="0" y="100" fill="#ffffff" font-size="25" font-weight="850">• DRY VANS  • FLATBEDS  • REEFERS</text>
+    <text class="font" x="0" y="132" fill="#ffffff" font-size="25" font-weight="850">• POWER ONLY</text>
+  </g>
+
+  <path d="M0 1310C157 1265 287 1266 454 1297C650 1333 798 1359 1080 1284V1350H0Z" fill="#ffffff"/>
+  <path d="M0 1308C180 1255 308 1266 488 1299C665 1332 821 1353 1080 1279" fill="none" stroke="#05070a" stroke-width="24"/>
+</svg>
